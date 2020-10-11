@@ -1,0 +1,35 @@
+header {
+    height: 100px;
+}
+
+#mainSpacing {
+    margin-top: 10px;
+    height: 80vh;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+.buttonBackground {
+    height: 40px;
+    width: 150px;
+}
+
+h2 {
+    height: 30px;
+    width: 130px;
+    font-size: 1rem;
+}
+
+.activeButton {
+    height: 80px;
+    width: 290px;
+    font-size: 2rem;
+}
+
+.buttonBackgroundActive {
+    height: 90px;
+    width: 310px;
+}

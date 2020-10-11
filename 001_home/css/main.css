@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 70%, rgba(18,6,18,1) 85%, rgba(86,86,86,1) 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-image: url(../img/aquila.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: white;
+    font-size: 1.2rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainSpacing {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    height: 75vh;
+}
+
+.buttonBackground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    height: 40px;
+    width: 150px;
+    border-radius: 30%;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    background-color: black;
+    font-size: 1rem;
+    height: 30px;
+    width: 130px;
+    border-radius: 30%;
+}
+
+.activeButton {
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(44,6,44,1) 60%, rgba(86,86,86,1) 100%);
+    color: rgba(256,256,256,.8);
+    height: 70px;
+    width: 280px;
+    border-radius: 40%;
+    font-size: 2rem;
+}
+
+.buttonBackgroundActive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(44,6,44,1) 50%, rgba(86,86,86,1) 80%);
+    height: 80px;
+    width: 300px;
+    border-radius: 40%;
+}

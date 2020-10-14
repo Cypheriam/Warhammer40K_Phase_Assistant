@@ -12,6 +12,8 @@ h1 {
     font-size: 3rem;
 }
 
+/* Inactive button styling */
+
 .buttonBackground {
     height: 40px;
     width: 150px;
@@ -22,6 +24,8 @@ h2 {
     width: 130px;
     font-size: 1rem;
 }
+
+/* Active button styling */
 
 .activeButton {
     height: 80px;

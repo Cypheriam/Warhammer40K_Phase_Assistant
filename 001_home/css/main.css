@@ -42,6 +42,8 @@ main {
     height: 75vh;
 }
 
+/* Inactive button stlying */
+
 .buttonBackground {
     display: flex;
     justify-content: center;
@@ -63,6 +65,8 @@ h2 {
     width: 130px;
     border-radius: 30%;
 }
+
+/* Active button styling */
 
 .activeButton {
     background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(44,6,44,1) 60%, rgba(86,86,86,1) 100%);
